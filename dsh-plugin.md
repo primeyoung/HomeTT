@@ -25,7 +25,7 @@
 | 4 | billion-context | 长上下文管理、上下文压缩与可逆摘要，辅助长会话工作 | T1 | https://github.com/ranxianglei/billion-context | 已找到原始仓库；需评估压缩策略 |
 | 5 | DSH-better-sidebar | 增强侧边栏，集成文件查看/编辑、终端、Git、侧边对话和子代理界面 | T1 | https://github.com/omdsh-dev/DSH-better-sidebar | 已找到原始仓库 |
 | 6 | dsh-univer-office | 集成表格、文档、幻灯片、画布等办公能力 | T2 | https://github.com/dream-num/dsh-univer-office | 已找到原始仓库；留意与其他插件的配置修改冲突 |
-| 7 | dsh-im | 即时通讯平台接入/消息网关（具体项目身份待确认） | T2 | **待确认**；可能相关项目：https://github.com/zhuiyueya/dsh-im-gateway | 尚不能确认它就是用户所指的 dsh-im |
+| 7 | dsh-im | 即时通讯平台接入/消息网关（具体项目身份待确认） | T2 | https://github.com/xmanrui/dsh-im | 已找到原始仓库 |
 | 8 | dsh-browser-cdp | 通过远程 CDP 控制浏览器，供 Agent 执行浏览器任务 | T2 | https://dshindex.com/plugins/dsh-browser-cdp | 找到目录条目，原始 GitHub 仓库地址尚未核实 |
 | 9 | dsh-ego-browser | 提供结构化浏览器工具，如页面快照、元素定位、点击、表单填写和截图 | T2 | https://github.com/omdsh-dev/dsh-ego-browser | 已找到原始仓库；Windows 兼容性需实测 |
 | 10 | dsh-windows-mcp | Windows 桌面自动化，包括 UI 自动化、截图、键鼠、剪贴板、进程等 | T1 | https://github.com/helloHub1212/dsh-windows-mcp | 已找到原始仓库；有明确运行环境要求 |
@@ -34,7 +34,7 @@
 | 13 | dsh-pua | 任务受阻时推动 Agent 继续排查、尝试替代方案并验证结果 | T1 | https://github.com/MichengAI/dsh-pua | 已找到原始仓库 |
 | 14 | dsh-agency-agents | 提供大量专业角色/Agent，支持按专业领域拆分任务 | T1 | https://github.com/MichengAI/dsh-agency-agents | 已找到原始仓库 |
 | 15 | dsh-permission-rules | 通过规则配置工具调用的允许、拒绝或人工确认策略 | T1 | https://github.com/PerryLink/dsh-permission-rules | 已找到原始仓库 |
-| 16 | dsh-ide-git | IDE 与 Git 工作流增强（具体项目身份待确认） | T2 | **待确认** | 尚未找到可可靠确认的原始仓库 |
+| 16 | dsh-ops | 为 Windows 的 DSH 提供 bash、PowerShell 7 及 Rust 高性能工具，减少 token 消耗。 | T2 | https://github.com/T-Auto/dsh-ops | 已找到原始仓库 |
 | 17 | dsh-skills-manager | 统一管理 Skills，支持浏览、搜索、启停、创建、导入、更新和备份等 | T1 | https://github.com/MichengAI/dsh-skills-manager | 已找到原始仓库 |
 | 18 | dsh-free-search | 免费/多引擎 Web 搜索能力，部分后端无需 API Key，并支持回退 | T1 | https://github.com/DDDMUC/dsh-free-search | 已找到原始仓库 |
 
@@ -88,9 +88,9 @@
 - [ ] `dsh-ego-browser` — T2
 - [ ] `dsh-browser-cdp` — T2
 - [ ] `dsh-univer-office` — T2
-- [ ] `dsh-im` — T2，先确认仓库
+- [ ] `dsh-im` — T2
 - [ ] `oh-story-dsh` — T2
-- [ ] `dsh-ide-git` — T2，先确认仓库
+- [ ] `dsh-ops` — T1
 
 **验证重点**
 - [ ] 浏览器插件是否存在功能重叠
@@ -233,8 +233,3 @@
 | v1.0 | 2026-11-27 | 建立 18 个插件初始清单、推荐等级、安装批次及扩展模板 |
 |  |  |  |
 
-**下一次建议更新内容：**
-- 补齐 `dsh-im`、`dsh-ide-git` 的准确仓库地址。
-- 核实 `dsh-browser-cdp` 的原始 GitHub 仓库。
-- 在 Windows 11 + 当前 DSH 版本环境下逐个安装测试。
-- 根据真实使用结果调整 T0 / T1 / T2 等级。
